@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-
+@import url(colors.css);
 
 * {
   box-sizing: border-box;
@@ -9,8 +9,8 @@
 
 
 body {
-  background-color: #129799;
-  color: white;
+  background-color: var(--color2);
+  color: var(--color1);
   font-family: "Roboto", sans-serif;
 }
 
@@ -31,7 +31,7 @@ header {
 .menu__link {
   padding-left: 100px;
   text-decoration: none;
-  color: white;
+  color: var(--color1);
   font-size: 30px;
 }
 
@@ -46,13 +46,14 @@ header {
 }
 
 main {
+
   width: 100%;
   padding: 20px;
-  background-color: #FFA185;
+  background-color: var(--color3);
 }
 
 #principal {
-  width: 1300px;
+  width: 1330px;
   margin: 0 auto;
 }
 
@@ -64,7 +65,7 @@ main {
 }
 
 .container img {
-  width: 580px;
+  width: 602px;
   height: 340.99px;
 }
 
@@ -75,7 +76,7 @@ main h2 {
 }
 
 main p {
-  color: black;
+  color: var(--color4);
   font-size: 30px;
   padding-top: 40px;
   padding-left: 41px;
@@ -87,7 +88,7 @@ main a {
   display: block;
   text-decoration: none;
   font-size: 30px;
-  color: black;
+  color: var(--color4);
   font-weight: 700;
 }
 
@@ -105,7 +106,7 @@ footer {
 
 .footer__container{
   align-items: center;
-  width: 1020px;
+  width: 1234px;
   display: flex;
   justify-content: space-between;
 }
